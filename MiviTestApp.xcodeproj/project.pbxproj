@@ -13,6 +13,11 @@
 		A71FB906209DCF12001294E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71FB905209DCF12001294E0 /* Assets.xcassets */; };
 		A71FB909209DCF12001294E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71FB907209DCF12001294E0 /* LaunchScreen.storyboard */; };
 		A71FB914209DCF12001294E0 /* MiviTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71FB913209DCF12001294E0 /* MiviTestAppTests.swift */; };
+		A71FB921209DCF74001294E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71FB920209DCF74001294E0 /* LoginViewController.swift */; };
+		A71FB923209DD08B001294E0 /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = A71FB922209DD08B001294E0 /* collection.json */; };
+		A71FB927209DF53D001294E0 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71FB926209DF53D001294E0 /* Attribute.swift */; };
+		A7F5656D209E22A000455CC0 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5656C209E22A000455CC0 /* UserDetailViewController.swift */; };
+		A7F5656F209E352B00455CC0 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5656E209E352B00455CC0 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		A71FB90F209DCF12001294E0 /* MiviTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiviTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71FB913209DCF12001294E0 /* MiviTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiviTestAppTests.swift; sourceTree = "<group>"; };
 		A71FB915209DCF12001294E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71FB920209DCF74001294E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A71FB922209DD08B001294E0 /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		A71FB926209DF53D001294E0 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		A7F5656C209E22A000455CC0 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		A7F5656E209E352B00455CC0 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 				A71FB8FE209DCF0D001294E0 /* AppDelegate.swift */,
 				A71FB900209DCF0D001294E0 /* ViewController.swift */,
 				A71FB902209DCF0D001294E0 /* Main.storyboard */,
+				A71FB920209DCF74001294E0 /* LoginViewController.swift */,
+				A7F5656C209E22A000455CC0 /* UserDetailViewController.swift */,
+				A7F5656E209E352B00455CC0 /* SplashViewController.swift */,
+				A71FB926209DF53D001294E0 /* Attribute.swift */,
+				A71FB922209DD08B001294E0 /* collection.json */,
 				A71FB905209DCF12001294E0 /* Assets.xcassets */,
 				A71FB907209DCF12001294E0 /* LaunchScreen.storyboard */,
 				A71FB90A209DCF12001294E0 /* Info.plist */,
@@ -180,6 +195,7 @@
 				A71FB909209DCF12001294E0 /* LaunchScreen.storyboard in Resources */,
 				A71FB906209DCF12001294E0 /* Assets.xcassets in Resources */,
 				A71FB904209DCF0D001294E0 /* Main.storyboard in Resources */,
+				A71FB923209DD08B001294E0 /* collection.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71FB927209DF53D001294E0 /* Attribute.swift in Sources */,
+				A71FB921209DCF74001294E0 /* LoginViewController.swift in Sources */,
+				A7F5656D209E22A000455CC0 /* UserDetailViewController.swift in Sources */,
+				A7F5656F209E352B00455CC0 /* SplashViewController.swift in Sources */,
 				A71FB901209DCF0D001294E0 /* ViewController.swift in Sources */,
 				A71FB8FF209DCF0D001294E0 /* AppDelegate.swift in Sources */,
 			);
